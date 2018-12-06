@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PCD grafik</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ <script src="assets/num.js"></script>
+<!--===============================================================================================-->
+    
+</head>
+<body style="margin: 0px;position: absolute;top:0;bottom: 0;left: 0;right: 0">
+  
+    <div style="width: 100%;background-image: url('stok/bg2.jpg');background-position: center;background-size: cover;background-repeat: no-repeat;height: 100%;position:absolute;text-align: right;">
+      <canvas id="gambar1" style="width: 64px;position: absolute;left: 370px;top:420px; " onClick="hilang()"></canvas>
+      <canvas id="gambar2" style="width: 64px;position: absolute;top:170px;left: 540px " onClick="hilang2()"></canvas>
+      <canvas id="gambar3" style="width: 80px;position: absolute;top:590px;left: 680px " onClick="hilang3()"></canvas>
+      <canvas id="gambar4" style="width: 55px;position: absolute;top:450px;left: 840px " onClick="hilang4()"></canvas>
+      <img id="pic1" src="stok/lampu.png" onload="loadgambar()" style="display: none">
+      <img id="pic2" src="stok/motor.png" onload="loadgambar2()" style="display: none">
+      <img id="pic3" src="stok/palu.png" onload="loadgambar3()" style="display: none">
+      <img id="pic4" src="stok/poster.png" onload="loadgambar4()" style="display: none">
+        </div>
+        <div style="width: 30%;height: 100%;left:70%;position: absolute;background-color: #e5e5e5">
+          <div style="margin-left: 30px;padding-top: 40px;padding-right: 30px;">
+      <ul>
+        <h1>Temukan benda benda bedasarkan clue di bawah ini.<br><br></h1>
+        <li>1.&nbsp;Benda pada mobil yang hanya di pakai di malam hari (dalam keadaan rusak).<img id="c1" src="images/cs.svg" width="25px" height="25px" style="display: none"></li>
+        <li>2.&nbsp;Kendaraan yang biasa digunakan mahasiswa UIN ke kampus.<img id="c2" src="images/cs.svg" width="25px" height="25px" style="display: none"></li>
+        <li>3.&nbsp;Alat yang biasa digunakan oleh tukang untuk menancapkan paku.<img id="c3" src="images/cs.svg" width="25px" height="25px" style="display: none"></li>
+        <li>4.&nbsp;Benda yang sering digunakan untuk menyampaikan informasi dengan tampilan yang menarik.<img id="c4" src="images/cs.svg" width="25px" height="25px" style="display: none"></li>
+      </ul></div>
+        </div>
+        <script type="text/javascript" src="oto.js"></script>
+</body>
+
+</html>
